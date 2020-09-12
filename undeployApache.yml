@@ -1,0 +1,7 @@
+---
+- hosts: dev
+  tasks:
+    - name: Un-deploy Apache
+      yum:
+        name: httpd
+        state: absent
