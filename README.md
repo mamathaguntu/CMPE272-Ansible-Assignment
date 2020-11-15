@@ -7,5 +7,6 @@ from a web browser on wkst1, and displays the message:
 “Hello World from centosX ” where X is 1 or 2 depending on
 which webserver.
 
-Include in the Ansible playbook, plays to deploy and un
-deploy the webserver resources.
+Include in the Ansible playbook, 
+-plays to deploy.
+-undeploy the webserver resources.
